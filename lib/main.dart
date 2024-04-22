@@ -175,8 +175,7 @@ class Messages extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            message,
+          Text(message,
             style: TextStyle(
               fontSize: 16,
               color: isUser ? Colors.white : Colors.black,
